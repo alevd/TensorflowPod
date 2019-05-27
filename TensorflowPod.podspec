@@ -82,6 +82,7 @@ Pod::Spec.new do |s|
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/eigen",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/gen/proto",
       "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/nsync/public",
+      "${PODS_ROOT}/#{s.name}/include/tensorflow/contrib/makefile/downloads/absl"
     ],
     "OTHER_LDFLAGS" => "-force_load $(PODS_ROOT)/#{s.name}/lib/libtensorflow-core.a" 
   }
